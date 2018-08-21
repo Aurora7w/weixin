@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>登录注册</title>
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+	<script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="../js/common.js"></script>
+</head>
+<body>
+	<div><a href="index.html"><img src="../img/common/nav_close.png" class="close"></a></div>
+	<div class="logo"><img src="../img/index/nav_logo.png"></div>
+	<div class="show">
+		<input type="tel" name="" placeholder="请输入手机号" id="tel" maxlength="11">
+		<div class="code">
+		<input type="tel" id="vcode" name="" placeholder="请输入验证码" class="check" maxlength="6">
+		<input type="button" id="btn" value="获取验证码"  />
+		</div>
+		<div style="text-align: center;font-size:15px;color:red;" id="hint"></div>
+		<button class="login" id="login">登录</button>
+		<p style="width: 100%;text-align: center;color:
+#666666;">其它方式登录</p>
+		<div><a href="#" onclick="is_weixin();"><img src="../img/login/login_wechat.png" style="width:50px;height: 50px;display: block;margin:20px auto;"></a></div>
+		<div style="margin: 70px 0px 0 30px;width: 100%;"><p style="color:#666666;width:62%;float: left;">注册登录即表示你已同意</p><a href="javascript:;" style="color:#0085CF;text-decoration: underline;">服务协议</a></div>
+	</div>
+
+</body>
+<footer>
+	<script type="text/javascript" src="../js/login.js"></script>
+</footer>
+</html>
