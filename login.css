@@ -1,0 +1,13 @@
+*{margin:0;padding:0;list-style: none;text-decoration: none;}
+html{font-size:16px;}
+html,body{width:100%;height:100%;overflow-x: hidden;}
+.close{width:20px;height:20px;display: block;margin:20px;}
+.logo{width: 100%;height: 8rem;line-height: 8rem;}
+.logo>img{display: block;margin:auto;padding-top: 2rem;}
+.show{width:80%;margin:0 auto;}
+#tel{width:97%;border:none;border-bottom: 1px solid #E2E5E7;height: 50px;line-height: 50px;outline: none;padding-left:10px;}
+input::-webkit-input-placeholder {color:#DDDDDD !important;font-size: 16px;}
+.code{width: 100%;border-bottom: 1px solid #E2E5E7;height: 50px;line-height: 50px;}
+#btn{float: right;color:#0085CF;border:none;background-color: #fff;margin-top:15px;font-size: 16px;outline:none;}
+.check{border:none;outline: none;padding-left:10px;height: 40px;line-height: 40px;}
+.login{width: 100%;height: 40px;margin:50px 0rem;background-color: #42B5F4;border:none;border-radius: 20px;outline: none;color:#fff;font-size:18px;}
